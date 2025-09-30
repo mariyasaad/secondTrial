@@ -3,5 +3,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
+
+        Student student = new Student("maria","saad",25);
+        student.print();
     }
 }
